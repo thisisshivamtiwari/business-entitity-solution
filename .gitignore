@@ -1,0 +1,9 @@
+# data, intermediate files and results are not part of the repository
+data/
+work/
+output/
+Embeddings/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

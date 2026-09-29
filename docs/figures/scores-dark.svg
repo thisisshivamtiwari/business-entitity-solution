@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 330" width="980" height="330" role="img" aria-label="Macro F0.5 of each model on the validation fold and on the hidden test set" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect x="0.5" y="0.5" width="979" height="329" rx="10" fill="#1a1a19" stroke="#33332f"/>
+<text x="28" y="38" font-size="17" font-weight="600" text-anchor="start" fill="#ffffff">Macro F0.5 by model</text>
+<text x="28" y="60" font-size="13" font-weight="400" text-anchor="start" fill="#c3c2b7">One score per Source 1 record, averaged. A wrong merge costs more than a missed match. Higher is better.</text>
+<line x1="342.8571428571429" y1="98" x2="342.8571428571429" y2="256" stroke="#2e2e2b" stroke-width="1"/>
+<text x="342.8571428571429" y="274" font-size="11.5" font-weight="400" text-anchor="middle" fill="#c3c2b7">0.980</text>
+<line x1="528.5714285714286" y1="98" x2="528.5714285714286" y2="256" stroke="#2e2e2b" stroke-width="1"/>
+<text x="528.5714285714286" y="274" font-size="11.5" font-weight="400" text-anchor="middle" fill="#c3c2b7">0.984</text>
+<line x1="714.2857142857142" y1="98" x2="714.2857142857142" y2="256" stroke="#2e2e2b" stroke-width="1"/>
+<text x="714.2857142857142" y="274" font-size="11.5" font-weight="400" text-anchor="middle" fill="#c3c2b7">0.988</text>
+<line x1="900.0" y1="98" x2="900.0" y2="256" stroke="#2e2e2b" stroke-width="1"/>
+<text x="900.0" y="274" font-size="11.5" font-weight="400" text-anchor="middle" fill="#c3c2b7">0.992</text>
+<text x="228" y="121" font-size="12.5" font-weight="500" text-anchor="end" fill="#ffffff">Model A</text>
+<text x="228" y="137" font-size="11" font-weight="400" text-anchor="end" fill="#c3c2b7">cross-encoder pipeline</text>
+<text x="347.4999999999995" y="128" font-size="11" font-weight="400" text-anchor="middle" fill="#c3c2b7">not measured</text>
+<circle cx="454.2857142857174" cy="124" r="6" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
+<text x="454.2857142857174" y="110" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">0.9824</text>
+<text x="228" y="173" font-size="12.5" font-weight="500" text-anchor="end" fill="#ffffff">Model B</text>
+<text x="228" y="189" font-size="11" font-weight="400" text-anchor="end" fill="#c3c2b7">feature pipeline</text>
+<line x1="347.4999999999995" y1="176" x2="728.2142857142842" y2="176" stroke="#55544f" stroke-width="2"/>
+<circle cx="347.4999999999995" cy="176" r="6" fill="#d95926" stroke="#1a1a19" stroke-width="2"/>
+<text x="347.4999999999995" y="162" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">0.9801</text>
+<circle cx="728.2142857142842" cy="176" r="6" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
+<text x="728.2142857142842" y="162" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">0.9883</text>
+<text x="228" y="225" font-size="12.5" font-weight="500" text-anchor="end" fill="#ffffff">Stacked ensemble</text>
+<text x="228" y="241" font-size="11" font-weight="400" text-anchor="end" fill="#c3c2b7">both models combined</text>
+<line x1="649.2857142857163" y1="228" x2="825.7142857142836" y2="228" stroke="#55544f" stroke-width="2"/>
+<circle cx="649.2857142857163" cy="228" r="6" fill="#d95926" stroke="#1a1a19" stroke-width="2"/>
+<text x="649.2857142857163" y="214" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">0.9866</text>
+<circle cx="825.7142857142836" cy="228" r="6" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
+<text x="825.7142857142836" y="214" font-size="12" font-weight="600" text-anchor="middle" fill="#ffffff">0.9904</text>
+<circle cx="256" cy="302" r="6" fill="#3987e5"/><text x="270" y="306" font-size="12" font-weight="400" text-anchor="start" fill="#c3c2b7">Validation fold, 442,001 records, labels known</text>
+<circle cx="596" cy="302" r="6" fill="#d95926"/><text x="610" y="306" font-size="12" font-weight="400" text-anchor="start" fill="#c3c2b7">Test set, 1,732,544 records, labels hidden</text>
+</svg>

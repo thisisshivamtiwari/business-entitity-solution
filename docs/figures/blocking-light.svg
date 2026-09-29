@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 392" width="980" height="392" role="img" aria-label="Share of true pairs missed by each candidate generation method" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect x="0.5" y="0.5" width="979" height="391" rx="10" fill="#fcfcfb" stroke="#e2e1dc"/>
+<text x="28" y="38" font-size="17" font-weight="600" text-anchor="start" fill="#0b0b0b">True matches lost before matching starts</text>
+<text x="28" y="60" font-size="13" font-weight="400" text-anchor="start" fill="#52514e">Share of true pairs missing from the candidate list, validation fold. Lower is better.</text>
+<line x1="360.0" y1="92" x2="360.0" y2="330" stroke="#b9b8b2" stroke-width="1"/>
+<text x="360.0" y="348" font-size="11.5" font-weight="400" text-anchor="middle" fill="#52514e">0%</text>
+<line x1="528.75" y1="92" x2="528.75" y2="330" stroke="#e6e5e0" stroke-width="1"/>
+<text x="528.75" y="348" font-size="11.5" font-weight="400" text-anchor="middle" fill="#52514e">1%</text>
+<line x1="697.5" y1="92" x2="697.5" y2="330" stroke="#e6e5e0" stroke-width="1"/>
+<text x="697.5" y="348" font-size="11.5" font-weight="400" text-anchor="middle" fill="#52514e">2%</text>
+<line x1="866.25" y1="92" x2="866.25" y2="330" stroke="#e6e5e0" stroke-width="1"/>
+<text x="866.25" y="348" font-size="11.5" font-weight="400" text-anchor="middle" fill="#52514e">3%</text>
+<text x="346" y="115" font-size="12.5" font-weight="500" text-anchor="end" fill="#0b0b0b">Keyword keys only</text>
+<text x="346" y="131" font-size="11" font-weight="400" text-anchor="end" fill="#52514e">12 candidates per record</text>
+<path d="M360,108 h502.25 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-502.25 z" fill="#eb6834"/>
+<text x="874.25" y="123" font-size="12.5" font-weight="600" text-anchor="start" fill="#0b0b0b">3.00%</text>
+<text x="346" y="161" font-size="12.5" font-weight="500" text-anchor="end" fill="#0b0b0b">Embedding search, approximate index</text>
+<text x="346" y="177" font-size="11" font-weight="400" text-anchor="end" fill="#52514e">33 candidates per record</text>
+<path d="M360,154 h185.0 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-185.0 z" fill="#2a78d6"/>
+<text x="557.0" y="169" font-size="12.5" font-weight="600" text-anchor="start" fill="#0b0b0b">1.12%</text>
+<text x="346" y="207" font-size="12.5" font-weight="500" text-anchor="end" fill="#0b0b0b">Keys + embedding neighbours + ranker  (Model B)</text>
+<text x="346" y="223" font-size="11" font-weight="400" text-anchor="end" fill="#52514e">12 candidates per record</text>
+<path d="M360,200 h92.18749999999999 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-92.18749999999999 z" fill="#eb6834"/>
+<text x="464.1875" y="215" font-size="12.5" font-weight="600" text-anchor="start" fill="#0b0b0b">0.57%</text>
+<text x="346" y="253" font-size="12.5" font-weight="500" text-anchor="end" fill="#0b0b0b">Embedding search, exact  (Model A)</text>
+<text x="346" y="269" font-size="11" font-weight="400" text-anchor="end" fill="#52514e">33 candidates per record</text>
+<path d="M360,246 h55.0625 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-55.0625 z" fill="#2a78d6"/>
+<text x="427.0625" y="261" font-size="12.5" font-weight="600" text-anchor="start" fill="#0b0b0b">0.35%</text>
+<text x="346" y="299" font-size="12.5" font-weight="500" text-anchor="end" fill="#0b0b0b">Union of Model A and Model B</text>
+<text x="346" y="315" font-size="11" font-weight="400" text-anchor="end" fill="#52514e">36 candidates per record</text>
+<path d="M360,292 h28.062499999999993 a4,4 0 0 1 4,4 v12 a4,4 0 0 1 -4,4 h-28.062499999999993 z" fill="#1baf7a"/>
+<text x="400.0625" y="307" font-size="12.5" font-weight="600" text-anchor="start" fill="#0b0b0b">0.19%</text>
+<rect x="360" y="364" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="378" y="374" font-size="12" font-weight="400" text-anchor="start" fill="#52514e">Model A</text>
+<rect x="470" y="364" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="488" y="374" font-size="12" font-weight="400" text-anchor="start" fill="#52514e">Model B</text>
+<rect x="580" y="364" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="598" y="374" font-size="12" font-weight="400" text-anchor="start" fill="#52514e">Both</text>
+</svg>
